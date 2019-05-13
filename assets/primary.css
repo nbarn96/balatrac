@@ -1,0 +1,42 @@
+/* While the site uses Bootstrap to power its typography and styling,
+some selectors have been manually overriden in this sheet for stylistic
+considerations. */
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#welcome-msg {
+    text-align: center;
+}
+
+#home-pg-buttons {
+    text-align: center;
+}
+
+table {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+#bals td, #bals th {
+    vertical-align: middle;
+}
+
+i {
+    font-size: 1.5rem;
+    margin-right: 4px;
+}
+
+.badge {
+    font-size: 1.6rem;
+    margin-left: 4px;
+}
+
+#btn-link {
+    text-decoration: none;
+}
