@@ -36,19 +36,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <title>Credit card balance tracker :: skbl17.net</title>
+        <title>Stored cards :: Baltrac</title>
     </head>
     <body>
         <div class="container-fluid">
             <nav class="navbar navbar-light bg-light">
                 <p class="my-2 my-lg-0">
-                    You are currently logged in as <b><?php echo $usrname; ?></b>
+                    You are currently logged in as <b><?php echo $usrname; ?>.</b>
                 </p>
                 <form action="" method="post">
                     <input type="submit" value="Logout" class="btn btn-danger" name="logout" />
                 </form>
             </nav>
-            <h1 class="display-3">Credit card balance tracker</h1>
+            <h1 class="display-3"><img src="assets/logo.png"></h1>
             <p class="lead" id="welcome-msg">
                 This is a lightweight, secure, and (eventually) mobile-friendly way to keep track of your credit card balances! Don't worry, we don't store credit card numbers or CVVs on the site.
             </p>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
             <hr />
-            &copy; 2019 <a href="https://www.nbarn.me">Nathaniel Barnwell</a>. All rights reserved.
+            &copy; 2019-20 Nathaniel Barnwell. All rights reserved.
         </div>
     </body>
 </html>
