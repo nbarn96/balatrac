@@ -38,11 +38,11 @@
         <link rel="stylesheet" href="assets/primary.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <title>Credit card balance tracker :: skbl17.net</title>
+        <title>Log in :: Baltrac</title>
     </head>
     <body>
         <div class="container-fluid">
-            <h1 class="display-3">Credit card balance tracker</h1>
+            <h1 class="display-3"><img src="assets/logo.png"></h1>
             <p class="lead" id="welcome-msg">
                 This is a lightweight, secure, and (eventually) mobile-friendly way to keep track of your credit card balances! Don't worry, we don't store credit card numbers or CVVs on the site.
             </p>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <hr />
-            &copy; 2019 <a href="https://www.nbarn.me">Nathaniel Barnwell</a>. All rights reserved.
+            &copy; 2019-20 Nathaniel Barnwell. All rights reserved.
         </div>
     </body>
 </html>
